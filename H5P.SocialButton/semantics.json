@@ -40,7 +40,7 @@
     "default": "default"
   },
   {
-    "name": "data_networks",
+    "name": "dataNetworks",
     "type": "group",
     "label": "Social networks",
     "description": "comma-separated list of social networks.",
@@ -88,7 +88,7 @@
         "default": true
       },
       {
-        "name": "Google Plus",
+        "name": "GooglePlus",
         "type": "boolean",
         "label": "Google Plus",
         "description": "",
@@ -165,7 +165,7 @@
         "default": true
       },
       {
-        "name": "e-mail",
+        "name": "email",
         "type": "boolean",
         "label": "e-mail",
         "description": "",
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "name": "data-orientation",
+    "name": "dataOrientation",
     "type": "select",
     "label": "Orientation",
     "description": "orientation, can be arc or line.",
