@@ -1,0 +1,17 @@
+{
+  "title": "ClassySocial",
+  "contentType": "library",
+  "majorVersion": 2,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "machineName": "classysocial",
+  "author": "Marius Stanciu - Sergiu",
+  "license": "MIT",
+  "preloadedJs": [
+    {"path": "src/js/jquery.classysocial.js"}
+  ],
+  "preloadedCss": [
+    {"path": "src/css/jquery.classysocial.css"}
+  ]
+}

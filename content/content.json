@@ -1,0 +1,36 @@
+{
+  "button_image": "images/1.JPG",
+  "placement": "left",
+  "data_theme": "default",
+  "data_networks": {
+    "Facebook": true,
+    "Twitter": true,
+    "Dribbble": true,
+    "Socl": true,
+    "Youtube": true,
+    "Vimeo": true,
+    "Google Plus": true,
+    "Pinterest": true,
+    "LinkedIn": true,
+    "Flickr": true,
+    "Blogger": true,
+    "GitHub": true,
+    "DeviantArt": true,
+    "Skype": true,
+    "Steam": true,
+    "Wordpress": true,
+    "Yahoo": true,
+    "e-mail": true
+  },
+  "data_image_type": true,
+  "data_picture": true,
+  "data_YYY_handle": {
+    "data_name_handle": true,
+    "data_name2_handle": true
+  },
+  "data-orientation": "arc",
+  "data_gap": 10,
+  "data_arc_start": 10,
+  "data_arc_length": 10,
+  "data_radius": 10
+}

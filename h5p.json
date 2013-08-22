@@ -1,0 +1,14 @@
+{
+  "title": "Social Button",
+  "contentType": "Button of social media",
+  "utilization": "Social Button",
+  "language": "en",
+  "author": "griffen",
+  "license": "MIT",
+  "mainLibrary": "H5P.SocialButton",
+  "preloadedDependencies": [
+    {"machineName": "H5P.SocialButton", "majorVersion": 1, "minorVersion": 0}
+  ],
+  "init": "H5P.SocialButton",
+  "embedTypes": ["div"]
+}

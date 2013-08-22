@@ -1,0 +1,245 @@
+[
+    {
+        "name": "button_image",
+        "type": "image",
+        "label": "Button image",
+        "description": "Image on main share button"
+    },
+    {
+        "name": "placement",
+        "type": "select",
+        "label": "Position",
+        "description": "TODO: Position of the main share button",
+        "options": [
+            {
+                "value": "right",
+                "label": "Right"
+            },
+            {
+                "value": "left",
+                "label": "Left"
+            }
+        ],
+        "default": "left"
+    },
+    {
+        "name": "data_theme",
+        "type": "select",
+        "label": "Theme",
+        "description": "Set theme",
+        "options": [
+            {
+                "value": "default",
+                "label": "Default"
+            },
+            {
+                "value": "slick",
+                "label": "Slick"
+            }
+        ],
+        "default": "default"
+    },
+    {
+        "name": "data_networks",
+        "type": "group",
+        "label": "Social networks",
+        "description": "comma-separated list of social networks.",
+        "options": [
+            {
+                "name": "Facebook",
+                "type": "boolean",
+                "label": "Facebook",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "Twitter",
+                "type": "boolean",
+                "label": "Twitter",
+                "description": "",
+                "default": true
+            },
+            {  
+                "name": "Dribbble",
+                "type": "boolean",
+                "label": "Dribbble",
+                "description": "",
+                "default": true
+            },
+            {  
+                "name": "Socl",
+                "type": "boolean",
+                "label": "Socl",
+                "description": "",
+                "default": true
+            },
+            {  
+                "name": "Youtube",
+                "type": "boolean",
+                "label": "Youtube",
+                "description": "",
+                "default": true
+            },
+            {  
+                "name": "Vimeo",
+                "type": "boolean",
+                "label": "Vimeo",
+                "description": "",
+                "default": true
+            },
+            {  
+                "name": "Google Plus",
+                "type": "boolean",
+                "label": "Google Plus",
+                "description": "",
+                "default": true
+            },
+            {  
+                "name": "Pinterest",
+                "type": "boolean",
+                "label": "Pinterest",
+                "description": "",
+                "default": true
+            },
+            {  
+                "name": "LinkedIn",
+                "type": "boolean",
+                "label": "LinkedIn",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "Flickr",
+                "type": "boolean",
+                "label": "Flickr",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "Blogger",
+                "type": "boolean",
+                "label": "Blogger",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "GitHub",
+                "type": "boolean",
+                "label": "GitHub",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "DeviantArt",
+                "type": "boolean",
+                "label": "DeviantArt",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "Skype",
+                "type": "boolean",
+                "label": "Skype",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "Steam",
+                "type": "boolean",
+                "label": "Steam",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "Wordpress",
+                "type": "boolean",
+                "label": "Wordpress",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "Yahoo",
+                "type": "boolean",
+                "label": "Yahoo",
+                "description": "",
+                "default": true
+            },
+            {
+                "name": "e-mail",
+                "type": "boolean",
+                "label": "e-mail",
+                "description": "",
+                "default": true
+            }
+        ] 
+    },
+    {
+        "name": "data_image_type",
+        "type": "boolean",
+        "label": "Facebook",
+        "description": "can be facebook if you want your Facebook profile image to be shown by default or picture.",
+        "default": true
+    },
+    {
+        "name": "data_picture",
+        "type": "boolean",
+        "label": "picozu",
+        "description": " can be either the name of the Facebook profile, an image url (ex images/test.jpg) or none.",
+        "default": true
+    },
+    {
+        "name": "data_YYY_handle",
+        "type": "group",
+        "label": "Where YYY can be the name of the social networks listed in the data-networks setting. Create a data-YYY-handle for each of the social networks.",
+        "fields": [
+            {
+                "name": "data_name_handle",
+                "type": "boolean",
+                "label": "picozu",
+                "description": "Show facebookhandle",
+                "default": true
+            }
+        ]
+    },
+    {
+        "name": "data-orientation",
+        "type": "select",
+        "label": "Orientation",
+        "description": "orientation, can be arc or line.",
+        "options": [
+            {
+                "value": "line",
+                "label": "In line"
+            },
+            {
+                "value": "arc",
+                "label": "In a circel"
+            }
+        ],
+        "default": "arc"
+    },
+    {
+        "name": "data_gap",
+        "type": "number",
+        "label": "Gap",
+        "description": " the gap (in pixels) between the profile bubbles."
+    },
+    {
+        "name": "data_arc_start",
+        "type": "number",
+        "label": "Arc start",
+        "description": "Start of the arc, from 1 to 360."
+    },
+    {
+        "name": "data_arc_length",
+        "type": "number",
+        "label": "Arc degree",
+        "description": "Length of the arc, from 1 to 360."
+    },
+    {
+        "name": "data_radius",
+        "type": "number",
+        "label": "Arc radius",
+        "description": "The radius of the arc."
+    }
+]
