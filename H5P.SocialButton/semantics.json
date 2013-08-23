@@ -1,6 +1,6 @@
 [
   {
-    "name": "button_image",
+    "name": "buttonImage",
     "type": "image",
     "label": "Button image",
     "description": "Image on main share button"
@@ -23,7 +23,7 @@
     "default": "left"
   },
   {
-    "name": "data_theme",
+    "name": "dataTheme",
     "type": "select",
     "label": "Theme",
     "description": "Set theme",
@@ -46,123 +46,242 @@
     "description": "comma-separated list of social networks.",
     "fields": [
       {
-        "name": "Facebook",
+        "name": "facebook",
         "type": "boolean",
         "label": "Facebook",
         "description": "",
         "default": true
       },
       {
-        "name": "Twitter",
+        "name": "facebookHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to Facebook site",
+        "default": ""
+      },
+      {
+        "name": "twitter",
         "type": "boolean",
         "label": "Twitter",
         "description": "",
         "default": true
       },
       {
-        "name": "Dribbble",
+        "name": "twitterHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to Twitter site",
+        "default": ""
+      },
+      {
+        "name": "dribbble",
         "type": "boolean",
         "label": "Dribbble",
         "description": "",
         "default": true
       },
       {
-        "name": "Socl",
+        "name": "dribbbleHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to Dribbble site",
+        "default": ""
+      },
+      {
+        "name": "socl",
         "type": "boolean",
         "label": "Socl",
         "description": "",
         "default": true
       },
       {
-        "name": "Youtube",
+        "name": "soclHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "youtube",
         "type": "boolean",
         "label": "YouTube",
         "description": "",
         "default": true
       },
       {
-        "name": "Vimeo",
+        "name": "youtubeHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "vimeo",
         "type": "boolean",
         "label": "Vimeo",
         "description": "",
         "default": true
       },
       {
-        "name": "GooglePlus",
+        "name": "vimeoHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "google",
         "type": "boolean",
         "label": "Google Plus",
         "description": "",
         "default": true
       },
       {
-        "name": "Pinterest",
+        "name": "googleHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "pinterest",
         "type": "boolean",
         "label": "Pinterest",
         "description": "",
         "default": true
       },
       {
-        "name": "LinkedIn",
+        "name": "pinterestHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "linkedin",
         "type": "boolean",
         "label": "LinkedIn",
         "description": "",
         "default": true
       },
       {
-        "name": "Flickr",
+        "name": "linkedinHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "flickr",
         "type": "boolean",
         "label": "Flickr",
         "description": "",
         "default": true
       },
       {
-        "name": "Blogger",
+        "name": "flickrHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "blogger",
         "type": "boolean",
         "label": "Blogger",
         "description": "",
         "default": true
       },
       {
-        "name": "GitHub",
+        "name": "bloggerHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "github",
         "type": "boolean",
         "label": "GitHub",
         "description": "",
         "default": true
       },
       {
-        "name": "DeviantArt",
+        "name": "githubHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "deviantart",
         "type": "boolean",
         "label": "DeviantArt",
         "description": "",
         "default": true
       },
       {
-        "name": "Skype",
+        "name": "deviantartHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "skype",
         "type": "boolean",
         "label": "Skype",
         "description": "",
         "default": true
       },
       {
-        "name": "Steam",
+        "name": "skypeHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "steam",
         "type": "boolean",
         "label": "Steam",
         "description": "",
         "default": true
       },
       {
-        "name": "Wordpress",
+        "name": "steamHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "wordpress",
         "type": "boolean",
         "label": "Wordpress",
         "description": "",
         "default": true
       },
       {
-        "name": "Yahoo",
+        "name": "wordpressHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
+      },
+      {
+        "name": "yahoo",
         "type": "boolean",
         "label": "Yahoo",
         "description": "",
         "default": true
+      },
+      {
+        "name": "yahooHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
       },
       {
         "name": "email",
@@ -170,43 +289,30 @@
         "label": "e-mail",
         "description": "",
         "default": true
-      }
-    ]
-  },
-  {
-    "name": "data_image_type",
-    "type": "boolean",
-    "label": "Facebook",
-    "description": "can be facebook if you want your Facebook profile image to be shown by default or picture.",
-    "default": true
-  },
-  {
-    "name": "data_picture",
-    "type": "boolean",
-    "label": "picozu",
-    "description": " can be either the name of the Facebook profile, an image url (ex images/test.jpg) or none.",
-    "default": true
-  },
-  {
-    "name": "data_YYY_handle",
-    "type": "group",
-    "label": "Where YYY can be the name of the social networks listed in the data-networks setting. Create a data-YYY-handle for each of the social networks.",
-    "fields": [
-      {
-        "name": "data_name_handle",
-        "type": "boolean",
-        "label": "picozu",
-        "description": "Show facebookhandle",
-        "default": true
       },
       {
-        "name": "data_name2_handle",
-        "type": "boolean",
-        "label": "picozu",
-        "description": "Show facebookhandle",
-        "default": true
+        "name": "emailHandle",
+        "type": "text",
+        "label": "URL",
+        "description": "username to ... site",
+        "default": ""
       }
+      
     ]
+  },
+  {
+    "name": "dataImageType",
+    "type": "boolean",
+    "label": "Facebook",
+    "description": "Can be facebook if you want your Facebook profile image to be shown by default or picture.",
+    "default": true
+  },
+  {
+    "name": "dataPicture",
+    "type": "boolean",
+    "label": "picozu",
+    "description": "Can be either the name of the Facebook profile, an image url (ex images/test.jpg) or none.",
+    "default": true
   },
   {
     "name": "dataOrientation",
@@ -226,27 +332,31 @@
     "default": "arc"
   },
   {
-    "name": "data_gap",
+    "name": "dataGap",
     "type": "number",
     "label": "Gap",
-    "description": " the gap (in pixels) between the profile bubbles."
+    "description": " the gap (in pixels) between the profile bubbles.",
+    "default": 70
   },
   {
-    "name": "data_arc_start",
+    "name": "dataArcStart",
     "type": "number",
     "label": "Arc start",
-    "description": "Start of the arc, from 1 to 360."
+    "description": "Start of the arc, from 1 to 360.",
+    "default": 0
   },
   {
-    "name": "data_arc_length",
+    "name": "dataArcLength",
     "type": "number",
     "label": "Arc degree",
-    "description": "Length of the arc, from 1 to 360."
+    "description": "Length of the arc, from 1 to 360.",
+    "default": 360
   },
   {
-    "name": "data_radius",
+    "name": "dataRadius",
     "type": "number",
     "label": "Arc radius",
-    "description": "The radius of the arc."
+    "description": "The radius of the arc.",
+    "dafault": 80
   }
 ]
