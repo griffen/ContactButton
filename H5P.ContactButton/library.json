@@ -1,0 +1,19 @@
+{
+  "title": "Contact button",
+  "description": "Contact button - H5P",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "machineName": "H5P.ContactButton",
+  "preloadedDependencies": [
+    {"machineName": "classysocial", "majorVersion": 2, "minorVersion": 0}
+  ],
+  "author": "griffen",
+  "license": "MIT",
+  "preloadedJs": [
+    {"path": "js/contactbutton.js"}
+  ],
+  "w": 635,
+  "h": 500
+}

@@ -1,14 +1,14 @@
 {
-  "title": "Social Button",
-  "contentType": "Button of social media",
-  "utilization": "Social Button",
+  "title": "Contact Button",
+  "contentType": "Button of contact on social media",
+  "utilization": "Contact Button",
   "language": "en",
   "author": "griffen",
-  "license": "MIT",
-  "mainLibrary": "H5P.SocialButton",
+  "license": "GPL",
+  "mainLibrary": "H5P.ContactButton",
   "preloadedDependencies": [
-    {"machineName": "H5P.SocialButton", "majorVersion": 1, "minorVersion": 0}
+    {"machineName": "H5P.ContactButton", "majorVersion": 1, "minorVersion": 0}
   ],
-  "init": "H5P.SocialButton",
+  "init": "H5P.ContactButton",
   "embedTypes": ["div"]
 }

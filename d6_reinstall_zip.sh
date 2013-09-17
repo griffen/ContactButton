@@ -15,4 +15,4 @@ sudo drush -y pm-disable h5p
 sudo drush -y pm-uninstall h5p
 sudo drush -y pm-enable h5p
 sudo drush -y pm-enable h5peditor
-cd ~/dev/social_button/
+cd ~/dev/contact_button/

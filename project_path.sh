@@ -1,1 +1,1 @@
-cd ~/dev/social_button/
+cd ~/dev/contact_button/

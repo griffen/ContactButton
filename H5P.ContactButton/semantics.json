@@ -1,0 +1,371 @@
+[
+  {
+    "name": "dataImageType",
+    "type": "select",
+    "label": "Set image of the contact button",
+    "description": "Can be facebook if you want your Facebook profile image to be shown by default or picture.",
+    "options": [
+      {
+        "value": "default",
+        "label": "Default"
+      },
+      {
+        "value": "facebook",
+        "label": "Facebook"
+      },
+      {
+        "value": "picture",
+        "label": "Picture"
+      }
+    ],
+    "default": "default"
+  },
+  {
+    "name": "dataPicture",
+    "type": "text",
+    "label": "Define contact button's image",
+    "description": "Can be either the name of the Facebook profile, an image url (ex images/test.jpg) or none.",
+    "default": "none"
+  },
+  {
+    "name": "placement",
+    "type": "select",
+    "label": "Position",
+    "description": "Position of contact button",
+    "options": [
+      {
+        "value": "right",
+        "label": "Right"
+      },
+      {
+        "value": "left",
+        "label": "Left"
+      }
+    ],
+    "default": "left"
+  },
+  {
+    "name": "dataTheme",
+    "type": "select",
+    "label": "Theme",
+    "description": "Set the theme for the contact button",
+    "options": [
+      {
+        "value": "default",
+        "label": "Color"
+      },
+      {
+        "value": "slick",
+        "label": "Greyscale"
+      }
+    ],
+    "default": "default"
+  },
+  {
+    "name": "dataOrientation",
+    "type": "select",
+    "label": "Orientation",
+    "description": "Set the contact button's orientation",
+    "options": [
+      {
+        "value": "line",
+        "label": "Line"
+      },
+      {
+        "value": "arc",
+        "label": "Circel"
+      }
+    ],
+    "default": "arc"
+  },
+  {
+    "name": "dataArcStart",
+    "type": "number",
+    "label": "Arc start",
+    "description": "Start of the arc, from 1 to 360.",
+    "default": 0
+  },
+  {
+    "name": "dataArcLength",
+    "type": "number",
+    "label": "Arc degree",
+    "description": "Length of the arc, from 1 to 360.",
+    "default": 360
+  },
+  {
+    "name": "dataRadius",
+    "type": "number",
+    "label": "Arc radius",
+    "description": "The radius of the arc.",
+    "dafault": 80
+  },
+  {
+    "name": "dataGap",
+    "type": "number",
+    "label": "Gap",
+    "description": "Set the gap (in pixels) between the profile bubbles.",
+    "default": 70
+  },
+  {
+    "name": "dataNetworks",
+    "type": "group",
+    "label": "Contact networks",
+    "description": "Select available networks and define their path.",
+    "fields": [
+      {
+        "name": "facebook",
+        "type": "boolean",
+        "label": "Facebook",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "facebookHandle",
+        "type": "text",
+        "label": "Facebook username",
+        "description": "Set your Facebook username",
+        "optional": true
+      },
+      {
+        "name": "twitter",
+        "type": "boolean",
+        "label": "Twitter",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "twitterHandle",
+        "type": "text",
+        "label": "Twitter username",
+        "description": "Set your Twitter username",
+        "optional": true
+      },
+      {
+        "name": "dribbble",
+        "type": "boolean",
+        "label": "Dribbble",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "dribbbleHandle",
+        "type": "text",
+        "label": "Dribbble URL",
+        "description": "Set your Dribbble username",
+        "optional": true
+      },
+      {
+        "name": "socl",
+        "type": "boolean",
+        "label": "Socl",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "soclHandle",
+        "type": "text",
+        "label": "Socl username",
+        "description": "Set your Socl username",
+        "optional": true
+      },
+      {
+        "name": "youtube",
+        "type": "boolean",
+        "label": "YouTube",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "youtubeHandle",
+        "type": "text",
+        "label": "YouTube username",
+        "description": "Set your YouTube username",
+        "optional": true
+      },
+      {
+        "name": "vimeo",
+        "type": "boolean",
+        "label": "Vimeo",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "vimeoHandle",
+        "type": "text",
+        "label": "Vimeo username",
+        "description": "Set your Vimeo username",
+        "optional": true
+      },
+      {
+        "name": "google",
+        "type": "boolean",
+        "label": "Google Plus",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "googleHandle",
+        "type": "text",
+        "label": "Google Plus username",
+        "description": "Set your Google Plus userid",
+        "optional": true
+      },
+      {
+        "name": "pinterest",
+        "type": "boolean",
+        "label": "Pinterest",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "pinterestHandle",
+        "type": "text",
+        "label": "Pinterest username",
+        "description": "Set your Pinterest username",
+        "optional": true
+      },
+      {
+        "name": "linkedin",
+        "type": "boolean",
+        "label": "LinkedIn",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "linkedinHandle",
+        "type": "text",
+        "label": "LinkedIn username",
+        "description": "Set your LinkedIn userid",
+        "optional": true
+      },
+      {
+        "name": "flickr",
+        "type": "boolean",
+        "label": "Flickr",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "flickrHandle",
+        "type": "text",
+        "label": "Flickr username",
+        "description": "Set your Flickr username",
+        "optional": true
+      },
+      {
+        "name": "blogger",
+        "type": "boolean",
+        "label": "Blogger",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "bloggerHandle",
+        "type": "text",
+        "label": "Blogger username",
+        "description": "Set your Blogger username",
+        "optional": true
+      },
+      {
+        "name": "github",
+        "type": "boolean",
+        "label": "GitHub",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "githubHandle",
+        "type": "text",
+        "label": "GitHub username",
+        "description": "Set your GitHub username",
+        "optional": true
+      },
+      {
+        "name": "deviantart",
+        "type": "boolean",
+        "label": "DeviantArt",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "deviantartHandle",
+        "type": "text",
+        "label": "DeviantArt username",
+        "description": "Set your DeviantArt username",
+        "optional": true
+      },
+      {
+        "name": "skype",
+        "type": "boolean",
+        "label": "Skype",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "skypeHandle",
+        "type": "text",
+        "label": "Skype username",
+        "description": "Set your Skype username",
+        "optional": true
+      },
+      {
+        "name": "steam",
+        "type": "boolean",
+        "label": "Steam",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "steamHandle",
+        "type": "text",
+        "label": "Steam username",
+        "description": "Set your Steam username",
+        "optional": true
+      },
+      {
+        "name": "wordpress",
+        "type": "boolean",
+        "label": "Wordpress",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "wordpressHandle",
+        "type": "text",
+        "label": "Wordpress",
+        "description": "Set your Wordpress username",
+        "optional": true
+      },
+      {
+        "name": "yahoo",
+        "type": "boolean",
+        "label": "Yahoo",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "yahooHandle",
+        "type": "text",
+        "label": "Yahoo username",
+        "description": "Set your Yahoo username",
+        "optional": true
+      },
+      {
+        "name": "email",
+        "type": "boolean",
+        "label": "e-mail",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "emailHandle",
+        "type": "text",
+        "label": "E-mail",
+        "description": "Set your e-mail",
+        "optional": true
+      }
+
+    ]
+  }
+
+]
