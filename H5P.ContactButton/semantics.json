@@ -76,7 +76,7 @@
         "label": "Circel"
       }
     ],
-    "default": "arc"
+    "default": "line"
   },
   {
     "name": "dataArcStart",
@@ -104,7 +104,7 @@
     "type": "number",
     "label": "Gap",
     "description": "Set the gap (in pixels) between the profile bubbles.",
-    "default": 70
+    "default": 45
   },
   {
     "name": "dataNetworks",

@@ -81,8 +81,8 @@ H5P.ContactButton = function(params, contentId) {
     },
     "dataImageType": "default",
     "dataPicture": "none",
-    "dataOrientation": "arc",
-    "dataGap": 70,
+    "dataOrientation": "line",
+    "dataGap": 45,
     "dataArcStart": 0,
     "dataArcLength": 360,
     "dataRadius": 80

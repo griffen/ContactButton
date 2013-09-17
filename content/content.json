@@ -43,9 +43,8 @@
   },
   "dataImageType": "default",
   "dataPicture": "none",
-  "dataOrientation": "arc",
-  "dataOrientation": "arc",
-  "dataGap": 70,
+  "dataOrientation": "line",
+  "dataGap": 45,
   "dataArcStart": 0,
   "dataArcLength": 360,
   "dataRadius": 80
