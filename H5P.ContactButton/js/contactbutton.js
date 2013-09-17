@@ -54,6 +54,8 @@ H5P.ContactButton = function(params, contentId) {
       "vimeoHandle": "_",
       "google": true,
       "googleHandle": "GooglePlusUsername",
+      "instagram": true,
+      "instagramHandle": "_",
       "pinterest": false,
       "pinterestHandle": "_",
       "linkedin": false,

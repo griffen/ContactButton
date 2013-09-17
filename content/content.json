@@ -16,6 +16,8 @@
     "vimeoHandle": "_",
     "google": true,
     "googleHandle": "GooglePlusUsername",
+    "instagram": false,
+    "instagramHandle": "_",
     "pinterest": false,
     "pinterestHandle": "_",
     "linkedin": false,

@@ -113,146 +113,6 @@
     "description": "Select available networks and define their path.",
     "fields": [
       {
-        "name": "facebook",
-        "type": "boolean",
-        "label": "Facebook",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "facebookHandle",
-        "type": "text",
-        "label": "Facebook username",
-        "description": "Set your Facebook username",
-        "optional": true
-      },
-      {
-        "name": "twitter",
-        "type": "boolean",
-        "label": "Twitter",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "twitterHandle",
-        "type": "text",
-        "label": "Twitter username",
-        "description": "Set your Twitter username",
-        "optional": true
-      },
-      {
-        "name": "dribbble",
-        "type": "boolean",
-        "label": "Dribbble",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "dribbbleHandle",
-        "type": "text",
-        "label": "Dribbble URL",
-        "description": "Set your Dribbble username",
-        "optional": true
-      },
-      {
-        "name": "socl",
-        "type": "boolean",
-        "label": "Socl",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "soclHandle",
-        "type": "text",
-        "label": "Socl username",
-        "description": "Set your Socl username",
-        "optional": true
-      },
-      {
-        "name": "youtube",
-        "type": "boolean",
-        "label": "YouTube",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "youtubeHandle",
-        "type": "text",
-        "label": "YouTube username",
-        "description": "Set your YouTube username",
-        "optional": true
-      },
-      {
-        "name": "vimeo",
-        "type": "boolean",
-        "label": "Vimeo",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "vimeoHandle",
-        "type": "text",
-        "label": "Vimeo username",
-        "description": "Set your Vimeo username",
-        "optional": true
-      },
-      {
-        "name": "google",
-        "type": "boolean",
-        "label": "Google Plus",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "googleHandle",
-        "type": "text",
-        "label": "Google Plus username",
-        "description": "Set your Google Plus userid",
-        "optional": true
-      },
-      {
-        "name": "pinterest",
-        "type": "boolean",
-        "label": "Pinterest",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "pinterestHandle",
-        "type": "text",
-        "label": "Pinterest username",
-        "description": "Set your Pinterest username",
-        "optional": true
-      },
-      {
-        "name": "linkedin",
-        "type": "boolean",
-        "label": "LinkedIn",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "linkedinHandle",
-        "type": "text",
-        "label": "LinkedIn username",
-        "description": "Set your LinkedIn userid",
-        "optional": true
-      },
-      {
-        "name": "flickr",
-        "type": "boolean",
-        "label": "Flickr",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "flickrHandle",
-        "type": "text",
-        "label": "Flickr username",
-        "description": "Set your Flickr username",
-        "optional": true
-      },
-      {
         "name": "blogger",
         "type": "boolean",
         "label": "Blogger",
@@ -264,20 +124,6 @@
         "type": "text",
         "label": "Blogger username",
         "description": "Set your Blogger username",
-        "optional": true
-      },
-      {
-        "name": "github",
-        "type": "boolean",
-        "label": "GitHub",
-        "description": "",
-        "default": true
-      },
-      {
-        "name": "githubHandle",
-        "type": "text",
-        "label": "GitHub username",
-        "description": "Set your GitHub username",
         "optional": true
       },
       {
@@ -295,6 +141,132 @@
         "optional": true
       },
       {
+        "name": "dribbble",
+        "type": "boolean",
+        "label": "Dribbble",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "dribbbleHandle",
+        "type": "text",
+        "label": "Dribbble URL",
+        "description": "Set your Dribbble username",
+        "optional": true
+      },
+      {
+        "name": "email",
+        "type": "boolean",
+        "label": "e-mail",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "emailHandle",
+        "type": "text",
+        "label": "E-mail",
+        "description": "Set your e-mail",
+        "optional": true
+      },
+      {
+        "name": "facebook",
+        "type": "boolean",
+        "label": "Facebook",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "facebookHandle",
+        "type": "text",
+        "label": "Facebook username",
+        "description": "Set your Facebook username",
+        "optional": true
+      },
+      {
+        "name": "flickr",
+        "type": "boolean",
+        "label": "Flickr",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "flickrHandle",
+        "type": "text",
+        "label": "Flickr username",
+        "description": "Set your Flickr username",
+        "optional": true
+      },
+      {
+        "name": "github",
+        "type": "boolean",
+        "label": "GitHub",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "githubHandle",
+        "type": "text",
+        "label": "GitHub username",
+        "description": "Set your GitHub username",
+        "optional": true
+      },
+      {
+        "name": "google",
+        "type": "boolean",
+        "label": "Google Plus",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "googleHandle",
+        "type": "text",
+        "label": "Google Plus username",
+        "description": "Set your Google Plus userid",
+        "optional": true
+      },
+      {
+        "name": "instagram",
+        "type": "boolean",
+        "label": "Instagram",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "instagramHandle",
+        "type": "text",
+        "label": "Instagram username",
+        "description": "Set your Insatgram username",
+        "optional": true
+      },
+      {
+        "name": "linkedin",
+        "type": "boolean",
+        "label": "LinkedIn",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "linkedinHandle",
+        "type": "text",
+        "label": "LinkedIn username",
+        "description": "Set your LinkedIn userid",
+        "optional": true
+      },
+      {
+        "name": "pinterest",
+        "type": "boolean",
+        "label": "Pinterest",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "pinterestHandle",
+        "type": "text",
+        "label": "Pinterest username",
+        "description": "Set your Pinterest username",
+        "optional": true
+      },
+      {
         "name": "skype",
         "type": "boolean",
         "label": "Skype",
@@ -309,6 +281,20 @@
         "optional": true
       },
       {
+        "name": "socl",
+        "type": "boolean",
+        "label": "Socl",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "soclHandle",
+        "type": "text",
+        "label": "Socl username",
+        "description": "Set your Socl username",
+        "optional": true
+      },
+      {
         "name": "steam",
         "type": "boolean",
         "label": "Steam",
@@ -320,6 +306,34 @@
         "type": "text",
         "label": "Steam username",
         "description": "Set your Steam username",
+        "optional": true
+      },
+      {
+        "name": "twitter",
+        "type": "boolean",
+        "label": "Twitter",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "twitterHandle",
+        "type": "text",
+        "label": "Twitter username",
+        "description": "Set your Twitter username",
+        "optional": true
+      },
+      {
+        "name": "vimeo",
+        "type": "boolean",
+        "label": "Vimeo",
+        "description": "",
+        "default": true
+      },
+      {
+        "name": "vimeoHandle",
+        "type": "text",
+        "label": "Vimeo username",
+        "description": "Set your Vimeo username",
         "optional": true
       },
       {
@@ -351,20 +365,19 @@
         "optional": true
       },
       {
-        "name": "email",
+        "name": "youtube",
         "type": "boolean",
-        "label": "e-mail",
+        "label": "YouTube",
         "description": "",
         "default": true
       },
       {
-        "name": "emailHandle",
+        "name": "youtubeHandle",
         "type": "text",
-        "label": "E-mail",
-        "description": "Set your e-mail",
+        "label": "YouTube username",
+        "description": "Set your YouTube username",
         "optional": true
       }
-
     ]
   }
 

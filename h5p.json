@@ -1,10 +1,9 @@
 {
   "title": "Contact Button",
-  "contentType": "Button of contact on social media",
+  "contentType": "Button for contact on social media",
   "utilization": "Contact Button",
   "language": "en",
   "author": "griffen",
-  "license": "GPL",
   "mainLibrary": "H5P.ContactButton",
   "preloadedDependencies": [
     {"machineName": "H5P.ContactButton", "majorVersion": 1, "minorVersion": 0}
